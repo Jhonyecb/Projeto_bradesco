@@ -1,4 +1,4 @@
-aCREATE DATABASE sistema_pix;
+CREATE DATABASE sistema_pix;
 
 use sistema_pix;
 
