@@ -1,6 +1,6 @@
-CREATE DATABASE sist_pix;
+aCREATE DATABASE sistema_pix;
 
-use sist_pix;
+use sistema_pix;
 
 CREATE TABLE clientes (
     id INT PRIMARY KEY AUTO_INCREMENT,
