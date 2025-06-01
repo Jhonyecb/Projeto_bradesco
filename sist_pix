@@ -1,0 +1,21 @@
+CREATE DATABASE sist_pix;
+
+use sist_pix;
+
+CREATE TABLE clientes (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100),
+    cpf VARCHAR(14),
+    chave_pix VARCHAR(100),
+    agencia VARCHAR(100),
+    score INT,
+    saldo DECIMAL(10,2),
+    senha VARCHAR(10)
+);
+
+CREATE TABLE denuncias (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    cpf_cliente VARCHAR(14),
+    motivo VARCHAR(255),
+    data_denuncia DATETIME
+);
