@@ -7,8 +7,8 @@ public class ConexaoBD {
     public static Connection conectar() {
         try {
             String url = "jdbc:mysql://localhost:3306/sistema_pix";
-            String usuario = "root";
-            String senha = "250906@Jo";
+            String usuario = "seu usuario";
+            String senha = "sua senha";
 
             return DriverManager.getConnection(url, usuario, senha);
 
