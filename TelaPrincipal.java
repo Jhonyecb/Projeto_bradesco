@@ -5,7 +5,7 @@
 
 /**
  *
- * @author User
+ * @author João Lucas Moura Bitencourt
  */
 
 import java.sql.Connection;
