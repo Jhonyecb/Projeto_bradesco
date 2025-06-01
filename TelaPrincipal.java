@@ -355,7 +355,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_txtCPFActionPerformed
 
     private void bntSacarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bntSacarActionPerformed
- try {
+    try {
         Connection conn = ConexaoBD.conectar();
 
         // Entrada de senha
@@ -484,7 +484,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_bntVerificarSaldoActionPerformed
 
     private void btnDepositarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDepositarActionPerformed
-String cpf = txtCPF.getText();
+    String cpf = txtCPF.getText();
 
     if (cpf.isEmpty()) {
         JOptionPane.showMessageDialog(this, "Digite o CPF do cliente.");
