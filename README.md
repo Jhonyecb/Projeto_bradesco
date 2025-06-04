@@ -20,10 +20,10 @@ O projeto foi pensado para treinar habilidades em desenvolvimento de software, m
 - O sistema mostra alertas de segurança quando um cliente tenta enviar um Pix para um destinatário com score de confiança entre 40 e 70, pedindo uma confirmação extra. 
 - Se o score de um usuário cair abaixo de 40, ele passa a ter restrições no sistema como não poder receber Pix por questões de segurança, as transações são automaticamente bloqueadas. 
 
-## Estrutura Esperada da Interface
+## Estrutura da Interface
 ![2025-06-04](https://github.com/user-attachments/assets/44f37df8-595b-4bfa-acd0-dcefe0f84470)
 
-## Estrutura Esperada do Banco de Dados
+## Estrutura do Banco de Dados
 O sistema foi desenvolvido com duas tabelas principais:
 
 - clientes: armazena informações pessoais, financeiras e de segurança do cliente.
