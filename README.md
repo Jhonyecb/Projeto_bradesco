@@ -68,13 +68,12 @@ Configure o banco de dados MySQL
 
 Ajuste a conexão com o banco
 No arquivo ConexaoBD.java, verifique se os dados de host, porta, usuário e senha estão corretos:
+
 String url = "jdbc:mysql://localhost:3306/sistema_pix"
-
 String user = "root"
-
 String password = "sua_senha"
 
-Execute a aplicação
+Execute a aplicação.
 
 Configurar o MySQL Connector/J (JDBC)
 Para que a aplicação consiga se conectar ao banco de dados MySQL, é necessário adicionar o MySQL Connector/J ao projeto.
