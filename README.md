@@ -43,5 +43,13 @@ O projeto foi pensado para treinar habilidades em desenvolvimento de software, m
 - Configure o banco de dados MySQL e execute o script de criação
 - Rode a aplicação a partir do SistemaPixBradesco.java
 
+## Estrutura Esperada do Banco de Dados
+O sistema foi desenvolvido com duas tabelas principais:
+
+- clientes: armazena informações pessoais, financeiras e de segurança do cliente.
+- denuncias: registra denúncias feitas por usuários com CPF, motivo e data.
+
+![Modelo do Banco de Dados](https://1drv.ms/i/c/f573367e97cfcb35/EZ4I-dgmdBROtgeVBeZS54YBqdLP1yH3YT0DGWmz4pBlRQ?e=fcsMu5)
+
 
 
