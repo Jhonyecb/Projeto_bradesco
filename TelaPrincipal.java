@@ -264,7 +264,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         if (rs.next()) {
             txtNome.setText(rs.getString("nome"));
-            txtPix.setText(rs.getString("chave_pix"));
+            txtChavePixDestino.setText(rs.getString("chave_pix"));
             txtAgencia.setText(rs.getString("agencia"));
             txtScore.setText(String.valueOf(rs.getInt("score")));
         } else {
