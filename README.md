@@ -89,7 +89,7 @@ Primeira opção:
     <version>8.0.33</version>
 </dependency>
 - Se não estiver adicione manualmente
-O Maven baixará automaticamente o .jar do conector.
+- O Maven baixará automaticamente o .jar do conector.
 
 Segunda opção:
 Baixe o .jar do conector em:
