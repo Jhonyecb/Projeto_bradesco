@@ -69,9 +69,11 @@ Configure o banco de dados MySQL
 Ajuste a conexão com o banco
 No arquivo ConexaoBD.java, verifique se os dados de host, porta, usuário e senha estão corretos:
 
-String url = "jdbc:mysql://localhost:3306/sistema_pix"
-String user = "root"
-String password = "sua_senha"
+String url = "jdbc:mysql://localhost:3306/sistema_pix";
+
+String user = "root";
+
+String password = "sua_senha";
 
 Execute a aplicação.
 
