@@ -20,6 +20,23 @@ O projeto foi pensado para treinar habilidades em desenvolvimento de software, m
 - O sistema mostra alertas de segurança quando um cliente tenta enviar um Pix para um destinatário com score de confiança entre 40 e 70, pedindo uma confirmação extra. 
 - Se o score de um usuário cair abaixo de 40, ele passa a ter restrições no sistema como não poder receber Pix por questões de segurança, as transações são automaticamente bloqueadas. 
 
+## Estrutura Esperada da Interface
+![2025-06-04](https://github.com/user-attachments/assets/44f37df8-595b-4bfa-acd0-dcefe0f84470)
+
+## Estrutura Esperada do Banco de Dados
+O sistema foi desenvolvido com duas tabelas principais:
+
+- clientes: armazena informações pessoais, financeiras e de segurança do cliente.
+- denuncias: registra denúncias feitas por usuários com CPF, motivo e data.
+
+![2025-06-01 (6)](https://github.com/user-attachments/assets/995bfffc-1e93-4cd8-9b4c-0b911c0b990a) 
+
+*Clientes Fictícios gerados por IA.
+
+![2025-06-01 (21)](https://github.com/user-attachments/assets/5bf50a7b-1495-467d-8eb3-3d6d86a19876) 
+
+*Clientes Fictícios gerados por IA.
+
 ## Habilidades desenvolvidas
 
 - Conexão Java + MySQL (JDBC)
@@ -42,23 +59,6 @@ O projeto foi pensado para treinar habilidades em desenvolvimento de software, m
 - Importe no NetBeans como projeto Maven
 - Configure o banco de dados MySQL e execute o script de criação
 - Rode a aplicação a partir do SistemaPixBradesco.java
-
-## Estrutura Esperada da Interface
-![2025-06-04](https://github.com/user-attachments/assets/44f37df8-595b-4bfa-acd0-dcefe0f84470)
-
-## Estrutura Esperada do Banco de Dados
-O sistema foi desenvolvido com duas tabelas principais:
-
-- clientes: armazena informações pessoais, financeiras e de segurança do cliente.
-- denuncias: registra denúncias feitas por usuários com CPF, motivo e data.
-
-![2025-06-01 (6)](https://github.com/user-attachments/assets/995bfffc-1e93-4cd8-9b4c-0b911c0b990a) 
-
-*Clientes Fictícios gerados por IA.
-
-![2025-06-01 (21)](https://github.com/user-attachments/assets/5bf50a7b-1495-467d-8eb3-3d6d86a19876) 
-
-*Clientes Fictícios gerados por IA.
 
 
 
