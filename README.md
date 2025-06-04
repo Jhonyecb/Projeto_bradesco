@@ -49,7 +49,7 @@ O sistema foi desenvolvido com duas tabelas principais:
 - clientes: armazena informações pessoais, financeiras e de segurança do cliente.
 - denuncias: registra denúncias feitas por usuários com CPF, motivo e data.
 
-![Modelo do Banco de Dados](![2025-06-01 (6)](https://github.com/user-attachments/assets/995bfffc-1e93-4cd8-9b4c-0b911c0b990a)
+(![2025-06-01 (6)](https://github.com/user-attachments/assets/995bfffc-1e93-4cd8-9b4c-0b911c0b990a)
 )
 
 
