@@ -43,6 +43,9 @@ O projeto foi pensado para treinar habilidades em desenvolvimento de software, m
 - Configure o banco de dados MySQL e execute o script de criação
 - Rode a aplicação a partir do SistemaPixBradesco.java
 
+## Estrutura Esperada da Interface
+![2025-06-04](https://github.com/user-attachments/assets/44f37df8-595b-4bfa-acd0-dcefe0f84470)
+
 ## Estrutura Esperada do Banco de Dados
 O sistema foi desenvolvido com duas tabelas principais:
 
