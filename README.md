@@ -53,13 +53,52 @@ O sistema foi desenvolvido com duas tabelas principais:
 - JDBC
 - Maven
 
-## Como executar
+## Como Executar o Projeto
+Clone o repositório
 
-- Clone o repositório
-- Importe no NetBeans como projeto Maven
-- Configure o banco de dados MySQL e execute o script de criação
-- Rode a aplicação a partir do SistemaPixBradesco.java
+Abra o projeto no NetBeans
+- Vá em File > Open Project.
+- Selecione a pasta clonada do projeto.
+- Certifique-se de que o NetBeans reconheceu o projeto como Maven (ícone do elefantinho azul).
 
+Configure o banco de dados MySQL
+- Crie um banco de dados chamado sistema_pix no MySQL.
+- Execute o script SQL disponível no projeto para criar as tabelas clientes e denuncias.
+- Você pode fazer isso usando o MySQL Workbench ou outro gerenciador de banco de dados.
+
+Ajuste a conexão com o banco
+No arquivo ConexaoBD.java, verifique se os dados de host, porta, usuário e senha estão corretos:
+String url = "jdbc:mysql://localhost:3306/sistema_pix";
+String user = "root";
+String password = "sua_senha";
+Execute a aplicação
+
+Configurar o MySQL Connector/J (JDBC)
+Para que a aplicação consiga se conectar ao banco de dados MySQL, é necessário adicionar o MySQL Connector/J ao projeto.
+
+Primeira opção:
+- Encontre o arquivo pom.xml, estará dentro da pasta > Project files
+- Confirme se o seguinte trecho está no arquivo pom.xml:
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.33</version>
+</dependency>
+- Se não estiver adicione manualmente
+O Maven baixará automaticamente o .jar do conector.
+
+Segunda opção:
+Baixe o .jar do conector em:
+https://dev.mysql.com/downloads/connector/j/
+
+No NetBeans:
+- Clique com o botão direito no projeto > Properties.
+- Vá até Libraries > clique em Add JAR/Folder.
+- Selecione o arquivo .jar baixado.
+- Clique em OK.
+- Localize o arquivo SistemaPixBradesco.java ou a classe com a main (TelaPrincipal).
+- Clique com o botão direito e selecione Run File.
+- A interface gráfica será iniciada
 
 
 
