@@ -83,11 +83,13 @@ Para que a aplicação consiga se conectar ao banco de dados MySQL, é necessár
 Primeira opção:
 - Encontre o arquivo pom.xml, estará dentro da pasta > Project files
 - Confirme se o seguinte trecho está no arquivo pom.xml:
+```
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
     <version>8.0.33</version>
 </dependency>
+```
 - Se não estiver adicione manualmente
 - O Maven baixará automaticamente o .jar do conector.
 
